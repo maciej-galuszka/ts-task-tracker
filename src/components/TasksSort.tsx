@@ -1,6 +1,5 @@
 import { Button } from './Button';
-
-type SortBy = 'input' | 'finished' | 'priority' | 'date';
+import type { SortBy } from '../types/SortBy';
 
 type TasksSortProps = {
   onClearTasks: () => void;
